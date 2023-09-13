@@ -42,7 +42,7 @@ async function main() {
 
   function intentar() {
     const INTENTO = leerIntento();
-
+    console.log(palabra);
     if (INTENTO === "") {
       terminar("<h1>Debes ingresar una palabra</h1>");
       return;
